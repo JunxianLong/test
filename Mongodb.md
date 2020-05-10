@@ -105,4 +105,8 @@ db.test.save(
 |  4   |  $lt   |   小于   |
 |  5   |  $gte  | 大于等于 |
 |  6   |  $lte  | 小于等于 |
+|  7   |  $inc  |    +1    |
 
+# 启动
+
+mongod.exe --logpath D:\mongodb\mongodbinstall\logs\mongo.log --logappend --dbpath D:\mongodb\mongodbinstall\data
